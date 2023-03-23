@@ -1,0 +1,11 @@
+.lista1 li:nth-child(2n) {
+  text-decoration: underline;
+}
+
+.lista1 li:nth-child(2n + 1) {
+  text-decoration: line-through;
+}
+
+.lista2 li:nth-child(4n) {
+  color: green;
+}

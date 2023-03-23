@@ -1,0 +1,49 @@
+h1,
+h2 {
+  color: aqua;
+}
+
+.clase-1,
+.clase-2 {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.clase-1 {
+  background-color: blueviolet;
+}
+
+.clase-1 h2 {
+  color: white;
+}
+
+.clase-2 {
+  background-color: crimson;
+}
+
+.clase-2 > h2 {
+  color: hotpink;
+}
+
+/* .clase-1 h3,
+.clase-1 p {
+  color: chocolate;
+} */
+
+h3 + p {
+  color: chocolate;
+}
+
+h3 ~ p {
+  color: darkmagenta;
+}
+
+* {
+  border-radius: 25px;
+}
+
+#tercerparrafo * {
+  color: cornflowerblue;
+}
