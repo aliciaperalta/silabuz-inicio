@@ -1,0 +1,79 @@
+body {
+  font-family: "Lora", serif;
+  background-color: rgb(203, 191, 228);
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carta {
+  border-radius: 5px;
+  background-color: white;
+  padding: 50px;
+  margin-top: 30px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+h3 {
+  color: darkviolet;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+.carta ul li i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.carta ul li i:hover {
+  color: black;
+}
+
+.btn-peru {
+  color: white;
+  background-color: deeppink;
+  border-radius: 5px;
+  padding: 10px 25px;
+  display: block;
+  width: 100px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.btn-peru:hover {
+  background-color: darkorchid;
+}
+
+/* .carta ul li i:hover:nth-child(2) {
+  color: skyblue;
+  aqui funciono con li sin i
+} */
+
+.parrafo1 {
+  margin-bottom: 20px;
+}

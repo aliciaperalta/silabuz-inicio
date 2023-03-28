@@ -1,0 +1,63 @@
+.font-20 {
+  font-size: 20px;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+.fondo {
+  background-color: cornflowerblue;
+  padding: 40px;
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  /* visibility: hidden; */
+}
+
+/* .fondo:hover {
+  display: none;
+} */
+
+.container2 {
+  width: 700px;
+  height: 400px;
+  background-color: lightgrey;
+  margin: auto;
+  position: relative;
+}
+
+.imagen,
+.imagen2,
+.imagen3,
+.imagen4 {
+  width: 100px;
+  height: 100px;
+}
+
+.imagen {
+  position: relative;
+  height: 100px;
+  top: 100px;
+}
+
+.imagen2 {
+  position: absolute;
+  /* top: 200px;
+  right: 300px; */
+  /* top:50%;
+  right: 50%; */
+  left: 120px;
+  z-index: 11;
+}
+
+.imagen3 {
+  position: fixed;
+  z-index: 12;
+}
+
+.imagen4 {
+  position: relative;
+  z-index: 10;
+}
