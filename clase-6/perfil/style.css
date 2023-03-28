@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  background-color: rgb(102, 38, 163);
+}
+
+.cuadro,
+.cuadro-igual {
+  width: 700px;
+  height: 300px;
+  border: 2px solid gray;
+  box-shadow: 4px 5px 6px gray;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.cuadro p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.cuadro-igual {
+  height: 150px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  color: gray;
+  font-size: 18px;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: gray;
+}
+
+h4 {
+  color: blueviolet;
+  text-align: center;
+}
+
+.foto img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  padding-top: 10px;
+}
+
+.foto,
+.redes {
+  text-align: center;
+}
+
+button {
+  background-color: darkviolet;
+  color: white;
+  padding: 15px;
+  border: darkviolet;
+  margin: 20px auto;
+  display: block;
+}
+
+.redes img {
+  padding-top: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+a:hover {
+  opacity: 0.5;
+}

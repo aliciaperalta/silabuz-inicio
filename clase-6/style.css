@@ -1,0 +1,28 @@
+.fondo {
+  width: 1600px;
+  height: 600px;
+  /* background-color: aqua; */
+  /* background-image: url(imagenes/san.jpg); */
+  /* background-image: linear-gradient(45deg, darkviolet, violet, pink, skyblue); */
+  /* background-image: radial-gradient(darkviolet, violet, pink, skyblue); */
+  background-size: contain;
+  /* background-repeat: round; */
+  background-repeat: no-repeat;
+  background-image: url(imagenes/sin-fondo.png),
+    linear-gradient(360deg, green, skyblue);
+  /* background-size: cover; */
+  background-position: left bottom;
+  /* background-attachment: fixed; */
+  /* background: aqua url(imagenes/san.jpg) no-repeat scroll right bottom; */
+  /* opacity: 0.5; */
+  /* filter: grayscale(50%); */
+  /* filter: sepia(70%); */
+  color: aliceblue;
+  font-size: 40px;
+  filter: brightness(80%);
+  filter: hue-rotate(5deg);
+}
+
+body {
+  height: 2000px;
+}
