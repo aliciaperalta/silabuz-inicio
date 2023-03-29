@@ -1,0 +1,19 @@
+:root {
+  --textColor: pink;
+  --halfValue: 25px;
+  --boxShadowPink: 3px 4px 5px pink;
+  --boxShadowGrey: 4px 5px 5px Grey;
+}
+
+.parrafo1 {
+  --textColor1: skyblue;
+  background-color: var(--textColor1, purple);
+  border-radius: var(--halfValue);
+  box-shadow: var(--boxShadowPink);
+}
+
+.parrafo2 {
+  --textColor: blue;
+  color: var(--textColor);
+  box-shadow: var(--boxShadowGrey);
+}
